@@ -86,12 +86,13 @@ function animation(){
     ctx.drawImage(playerImage, 0, 0, frameX, frameY, 0, 0, CANVAS_WIDTH, CANVAS_HEIGHT);
 
     // Old Anim
-    //  frameX = spriteWidth * position;
-    //  frameY = spriteHeight * position;
-    //   if (gameFrame % staggerFrames == 0){
-    //   if (frameX < 7) frameX++; //movement animation
-    //   else frameX = 0; //movement static 
-    //  }
+    /*
+    frameX = spriteWidth * position;
+    frameY = spriteHeight * position;
+       if (gameFrame % staggerFrames == 0){
+       if (frameX < 7) frameX++; //movement animation
+       else frameX = 0; //movement static 
+    }*/
     gameFrame++;
     requestAnimationFrame(animate);
 };
