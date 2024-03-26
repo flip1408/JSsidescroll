@@ -49,8 +49,8 @@ class Layer {
         this.x2 = Math.floor(this.x2 - this.speed);
     }
     draw(){
-        ctx.drawimage(this.imagem, this.x, this.y, this.width, this.height)
-        ctx.drawimage(this.imagem, this.x2, this.y, this.width, this.height)
+        ctx.drawimage(this.image, this.x, this.y, this.width, this.height)
+        ctx.drawimage(this.image, this.x2, this.y, this.width, this.height)
     }
 }
 
